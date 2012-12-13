@@ -9,10 +9,10 @@ The basic mechanism is to check for response from remote host, such as http://ww
 
 This mechanism is implemented using below listed approaches:
 
-  1.	NSTask + curl command
-	2.	CFNetDiagnostics 
-	3.	Reachability 
-	4.	NSURLConnection
+1. NSTask + curl command
+2. CFNetDiagnostics 
+3. Reachability 
+4. NSURLConnection
 
 I came up with the idea of making this app when I was googling to look around for the best solution to implement it.
 
