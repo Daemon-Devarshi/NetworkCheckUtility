@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D16FED51678526100DC4CC6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16FED41678526100DC4CC6 /* Cocoa.framework */; };
+		3D16FEDF1678526100DC4CC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D16FEDD1678526100DC4CC6 /* InfoPlist.strings */; };
+		3D16FEE11678526100DC4CC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D16FEE01678526100DC4CC6 /* main.m */; };
+		3D16FEE51678526100DC4CC6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3D16FEE31678526100DC4CC6 /* Credits.rtf */; };
+		3D16FEE81678526100DC4CC6 /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D16FEE71678526100DC4CC6 /* DKAppDelegate.m */; };
+		3D16FEEB1678526100DC4CC6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D16FEE91678526100DC4CC6 /* MainMenu.xib */; };
+		3D16FEF91678800100DC4CC6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16FEF81678800100DC4CC6 /* SystemConfiguration.framework */; };
+		3D16FEFA1678805000DC4CC6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D16FEF716787A4D00DC4CC6 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D16FED01678526100DC4CC6 /* NetworkCheckUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkCheckUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D16FED41678526100DC4CC6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3D16FED71678526100DC4CC6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3D16FED81678526100DC4CC6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3D16FED91678526100DC4CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D16FEDC1678526100DC4CC6 /* NetworkCheckUtility-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkCheckUtility-Info.plist"; sourceTree = "<group>"; };
+		3D16FEDE1678526100DC4CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D16FEE01678526100DC4CC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D16FEE21678526100DC4CC6 /* NetworkCheckUtility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkCheckUtility-Prefix.pch"; sourceTree = "<group>"; };
+		3D16FEE41678526100DC4CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3D16FEE61678526100DC4CC6 /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		3D16FEE71678526100DC4CC6 /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
+		3D16FEEA1678526100DC4CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3D16FEF616787A4D00DC4CC6 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3D16FEF716787A4D00DC4CC6 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3D16FEF81678800100DC4CC6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D16FECD1678526100DC4CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D16FEF91678800100DC4CC6 /* SystemConfiguration.framework in Frameworks */,
+				3D16FED51678526100DC4CC6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D16FEC51678526100DC4CC6 = {
+			isa = PBXGroup;
+			children = (
+				3D16FEDA1678526100DC4CC6 /* NetworkCheckUtility */,
+				3D16FED31678526100DC4CC6 /* Frameworks */,
+				3D16FED11678526100DC4CC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D16FED11678526100DC4CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D16FED01678526100DC4CC6 /* NetworkCheckUtility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D16FED31678526100DC4CC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D16FEF81678800100DC4CC6 /* SystemConfiguration.framework */,
+				3D16FED41678526100DC4CC6 /* Cocoa.framework */,
+				3D16FED61678526100DC4CC6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D16FED61678526100DC4CC6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D16FED71678526100DC4CC6 /* AppKit.framework */,
+				3D16FED81678526100DC4CC6 /* CoreData.framework */,
+				3D16FED91678526100DC4CC6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3D16FEDA1678526100DC4CC6 /* NetworkCheckUtility */ = {
+			isa = PBXGroup;
+			children = (
+				3D16FEF516787A3A00DC4CC6 /* Reachability */,
+				3D16FEE61678526100DC4CC6 /* DKAppDelegate.h */,
+				3D16FEE71678526100DC4CC6 /* DKAppDelegate.m */,
+				3D16FEE91678526100DC4CC6 /* MainMenu.xib */,
+				3D16FEDB1678526100DC4CC6 /* Supporting Files */,
+			);
+			path = NetworkCheckUtility;
+			sourceTree = "<group>";
+		};
+		3D16FEDB1678526100DC4CC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D16FEDC1678526100DC4CC6 /* NetworkCheckUtility-Info.plist */,
+				3D16FEDD1678526100DC4CC6 /* InfoPlist.strings */,
+				3D16FEE01678526100DC4CC6 /* main.m */,
+				3D16FEE21678526100DC4CC6 /* NetworkCheckUtility-Prefix.pch */,
+				3D16FEE31678526100DC4CC6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D16FEF516787A3A00DC4CC6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3D16FEF616787A4D00DC4CC6 /* Reachability.h */,
+				3D16FEF716787A4D00DC4CC6 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D16FECF1678526100DC4CC6 /* NetworkCheckUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D16FEEE1678526100DC4CC6 /* Build configuration list for PBXNativeTarget "NetworkCheckUtility" */;
+			buildPhases = (
+				3D16FECC1678526100DC4CC6 /* Sources */,
+				3D16FECD1678526100DC4CC6 /* Frameworks */,
+				3D16FECE1678526100DC4CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkCheckUtility;
+			productName = NetworkCheckUtility;
+			productReference = 3D16FED01678526100DC4CC6 /* NetworkCheckUtility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D16FEC71678526100DC4CC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DK;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Endurance;
+			};
+			buildConfigurationList = 3D16FECA1678526100DC4CC6 /* Build configuration list for PBXProject "NetworkCheckUtility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D16FEC51678526100DC4CC6;
+			productRefGroup = 3D16FED11678526100DC4CC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D16FECF1678526100DC4CC6 /* NetworkCheckUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D16FECE1678526100DC4CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D16FEDF1678526100DC4CC6 /* InfoPlist.strings in Resources */,
+				3D16FEE51678526100DC4CC6 /* Credits.rtf in Resources */,
+				3D16FEEB1678526100DC4CC6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D16FECC1678526100DC4CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D16FEE11678526100DC4CC6 /* main.m in Sources */,
+				3D16FEE81678526100DC4CC6 /* DKAppDelegate.m in Sources */,
+				3D16FEFA1678805000DC4CC6 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D16FEDD1678526100DC4CC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D16FEDE1678526100DC4CC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D16FEE31678526100DC4CC6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D16FEE41678526100DC4CC6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3D16FEE91678526100DC4CC6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D16FEEA1678526100DC4CC6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D16FEEC1678526100DC4CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D16FEED1678526100DC4CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D16FEEF1678526100DC4CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkCheckUtility/NetworkCheckUtility-Prefix.pch";
+				INFOPLIST_FILE = "NetworkCheckUtility/NetworkCheckUtility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D16FEF01678526100DC4CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkCheckUtility/NetworkCheckUtility-Prefix.pch";
+				INFOPLIST_FILE = "NetworkCheckUtility/NetworkCheckUtility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D16FECA1678526100DC4CC6 /* Build configuration list for PBXProject "NetworkCheckUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D16FEEC1678526100DC4CC6 /* Debug */,
+				3D16FEED1678526100DC4CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D16FEEE1678526100DC4CC6 /* Build configuration list for PBXNativeTarget "NetworkCheckUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D16FEEF1678526100DC4CC6 /* Debug */,
+				3D16FEF01678526100DC4CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D16FEC71678526100DC4CC6 /* Project object */;
+}
