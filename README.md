@@ -24,9 +24,5 @@ This code provides only a basic idea of using different methods, each method can
 
 Please feel free to add new methods to the existing code base.
 
-Related Tweets:
----------------
-
-`#NetworkCheckUtility`
 
 Have fun :-)
